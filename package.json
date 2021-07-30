@@ -1,0 +1,26 @@
+{
+  "name": "Samres",
+  "version": "1.0.0",
+  "description": "A demo of a replacing website for Samres AB",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind src/tailwind.css -o public/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isakjensen/Samres.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isakjensen/Samres/issues"
+  },
+  "homepage": "https://github.com/isakjensen/Samres#readme"
+}
